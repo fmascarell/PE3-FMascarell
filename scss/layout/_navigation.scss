@@ -6,3 +6,12 @@
     width: 70px;
     vertical-align: middle;
 }
+
+.navbar-nav {
+    .nav-link {
+        &:hover {
+            background-color: #f0f0f0 !important;
+            color: rgb(32, 4, 243) !important;
+        }
+    }
+}
